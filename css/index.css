@@ -1,0 +1,833 @@
+/* 폰트적용 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* 노말라이즈 */
+body, ul, li, h1 {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+a {
+  color:inherit;
+  text-decoration:none;
+}
+
+label[for] {
+  cursor:pointer;
+  user-select:none;
+}
+
+/* 라이브러리 */
+.block {
+  display:block;
+}
+
+.inline-block {
+  display:inline-block;
+}
+
+.absolute-left {
+  position:absolute;
+  left:0;
+}
+
+.absolute-right {
+  position:absolute;
+  right:0;
+}
+
+.absolute-bottom {
+  position:absolute;
+  bottom:0;
+}
+
+.absolute-top {
+  position:absolute;
+  top:0;
+}
+
+.absolute-center {
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.absolute-middle {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.absolute-middle.absolute-center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+}
+
+.relative {
+  position:relative;
+}
+
+.fixed {
+  position:fixed;
+}
+
+.cell {
+  float:left;
+  box-sizing:border-box;
+}
+
+.cell-right {
+  float:right;
+  box-sizing:border-box;
+}
+
+.row::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.clear-both {
+  clear:both;
+}
+
+.img-box > img {
+  width:100%;
+  display:block;
+}
+
+.con {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.margin-0-auto {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.text-align-center {
+  text-align:center;
+}
+
+.text-align-right {
+  text-align:right;
+}
+
+.line-height-0 {
+  line-height:0;
+}
+
+.line-height-0 > * {
+  line-height:normal;
+}
+
+.width-30px {
+  width:30px;
+}
+
+.width-35px {
+  width:35px;
+}
+
+.width-40px {
+  width:35px;
+}
+
+.width-45px {
+  width:35px;
+}
+
+.width-50px {
+  width:50px;
+}
+
+.width-80px {
+  width:80px;
+}
+
+.width-100px {
+  width:100px;
+}
+
+.width-100p {
+  width:100%;
+}
+
+.width-60p {
+  width:60%;
+}
+
+.width-55p {
+  width:55%;
+}
+
+.width-50p {
+  width:50%;
+}
+
+.width-45p {
+  width:45%;
+}
+
+.width-40p {
+  width:40%;
+}
+
+.width-30p {
+  width:30%;
+}
+
+.width-35p {
+  width:35%;
+}
+
+.width-100p-except-30px {
+  width:calc(100% - 30px);
+}
+
+.width-100p-except-35px {
+  width:calc(100% - 35px);
+}
+
+.width-100p-except-40px {
+  width:calc(100% - 40px);
+}
+
+.width-100p-except-50px {
+  width:calc(100% - 50px);
+}
+
+.width-100p-except-80px {
+  width:calc(100% - 80px);
+}
+
+.width-100p-except-100px {
+  width:calc(100% - 100px);
+}
+
+.border-box {
+  box-sizing:border-box;
+}
+
+.font-size-dot-8rem {
+  font-size:.8rem;
+}
+
+.table-row {
+  display:table;
+}
+
+.table-row.row::after {
+  display:inline;
+  clear:non;
+}
+
+.table-row > .cell {
+  float:none;
+  display:table-cell;
+}
+
+.flex {
+  display:flex;
+}
+
+.flex > .cell {
+  float:none;
+}
+.ch-flex-1-0-auto > * {
+  flex:1 0 auto;
+}
+.justify-content-fe {
+  justify-content: flex-end;
+}
+.justify-content-fs {
+  justify-content: flex-start;
+}
+.justify-content-sa {
+  justify-content: space-around;
+}
+.justify-content-sb {
+  justify-content: space-between;
+}
+.align-self-center {
+  align-self:center;
+}
+.flex-wrap-no {
+  flex-wrap:nowrap;
+}
+.flex-wrap-wrap {
+  flex-wrap:wrap;
+}
+.flex-warp-warpre {
+  flex-wrap:wrap-reverse;
+}
+.align-items-center {
+    align-items: center;
+}
+* > .flex-1-0-0 {
+    flex:1 0 0;
+  }
+* > .flex-ai-c {
+    display:flex;
+    align-items:center;
+  }
+* > .flex-jc-c {
+  display:flex;
+  justify-content:center;
+}
+/* 커스텀 */
+.con-min-width {
+  min-width:1356px;
+}
+
+.con {
+  max-width:1200px;
+}
+body {
+  background: #222;
+  overflow-x: hidden;
+}
+/* popup-2 커스텀 */
+.newsletter.active {
+  display:block;
+}
+.popup-background.active {
+  display:block;
+}
+html.active {
+  overflow:hidden;
+}
+.popup-background {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  position:absolute;
+  background-color: rgba(0,0,0,.5);
+  z-index:4;
+  display:none;
+}
+.newsletter {
+  display:none;
+}
+.newsletter {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/razer-newsletter-bg.jpg);
+  width:950px;
+  height:500px;
+  background-repeat: no-repeat;
+  background-position: 0 ;
+  position:absolute;
+  top:100px;
+  left:25%;
+  z-index:5;
+}
+
+.newsletter > .close-btn {
+  width:30px;
+  height:30px;
+  left:98%;
+  top:20px;
+  transform:translatex(-100%);
+  cursor:pointer;
+}
+.newsletter > .close-btn > div {
+  position:absolute;
+  width:30px;
+  height:3px;
+  background-color: #ccc;
+  top:calc(50% - 3px);
+  
+}
+.newsletter > .close-btn:hover > div {
+  background-color: #aaa;
+}
+.newsletter > .close-btn > div:first-child {
+  transform:rotate(45deg);
+}
+.newsletter > .close-btn > div:last-child {
+  transform:rotate(-45deg);
+}
+.newsletter > h1 {
+  font-family:"Roboto";
+  font-size:35px;
+  font-weight:900;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width:50%;
+}
+.newsletter > h3 {
+  font-size:16px;
+  font-weight:bold;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+.newsletter > h6 {
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newsletter > h6 > a {
+  color:#44dd62;
+}
+.newsletter > input {
+  color: #c8323c;
+  width:30%;
+  padding:10px 10px;
+  font-size:18px;
+  font-weight:300;
+  border-radius:3px;
+}
+
+.newsletter > .sign-up-now-btn {
+  color: #fff;
+  font-size:13px;
+  font-weight:bold;
+  background: #666;
+  display:inline-block;
+  padding:10px 25px;
+  border-radius:3px;
+  cursor:default;
+}
+.newsletter > h6:last-child {
+  margin-top: 50px;
+}
+/* popup-1 커스텀 */
+.top {
+  width:100%;
+  z-index:3;
+}
+.popup-1 {
+  background-color: #303030;
+  color: #999;
+  width:100%;
+  top:0;
+  display:none;
+  z-index: 0;
+}
+.popup-1.active {
+  display:block;
+}
+.popup-1 > .area {
+  padding:30px 0;
+}
+.popup-1 .text-ex {
+  font-size:14px;
+}
+.popup-1 .text-ex span {
+  color: #fff;
+}
+.popup-1 .lang {
+  color: #000;
+  font-size:15px;
+  font-weight:600;
+  padding:10px 30px;
+  background-color: #44d62c;
+  border-radius:3px;
+  cursor:pointer;
+  display:inline-block;
+  transition:background-color .3s;
+}
+.popup-1 .lang:hover {
+  background-color: rgba(115, 225, 97);
+}
+.popup-1 .another-lang {
+  margin-top: 5px;
+  font-size:14px;
+  color:#999;
+  text-decoration:underline;
+}
+.lang-select > div {
+  transform:translatex(80%);
+  display:inline-block;
+}
+.popup-1 .another-lang:hover {
+  color: #fff;
+}
+.popup-1 .close-btn {
+  transform:translatey(-100%);
+  width:20px;
+  height:20px;
+  cursor:pointer;
+}
+.popup-1 .close-btn > div {
+  position:absolute;
+  width:100%;
+  height:2px;
+  top:calc(50% - 2px);
+  background-color: #999;
+}
+.popup-1 .close-btn > div:first-child {
+  transform:rotate(45deg);
+}
+.popup-1 .close-btn > div:last-child {
+  transform:rotate(-45deg);
+}
+/* top-bar 커스텀 */
+.top-bar {
+  width: 100%;
+  min-width: 950px;
+  background: #222;
+  color: #999;
+  z-index:3;
+}
+/* menu-box-1 커스텀 */
+.menu-box-1 > ul > li {
+  margin-top: 20px;
+  font-weight:600;
+}
+.menu-box-1 > ul > li > a {
+  padding-bottom:20px;
+  padding-right:35px;
+  position:relative;
+  font-size: 15px;
+}
+.menu-box-1 > ul > li:hover > a {
+  color: #fff;
+}
+.menu-box-1 > ul > li:hover > a::after {
+  content:"";
+  position:absolute;
+  width:20px;
+  height:20px;
+  bottom:0;
+  left:auto;
+  transform:translatex(-50%) translatey(60%) rotate(45deg);
+  right:50%;
+  background-color: #000;
+}
+.menu-box-1 ul li > div {
+  position:absolute;
+  width:1140px;
+  background: #000;
+  left:auto;
+  right:0;
+  display:none;
+}
+.menu-box-1 ul > li:hover > div {
+  display:flex;
+  padding:20px;
+}
+.menu-box-1 ul > li:hover > div > ul {
+  color: #fff;
+  width:20%;
+}
+.menu-box-1 ul > li:hover > div > ul li {
+  color: #999;
+  font-weight:400;
+}
+.menu-box-1 ul > li:hover > div > ul li:first-child > a {
+  padding-top: 15px;
+}
+.menu-box-1 ul > li:hover > div > ul li > a {
+  padding:8px 8px 3px 0;
+}
+.menu-box-1 ul > li:hover > div > ul li:hover > a {
+  color: #44d62c;
+}
+/* logo 커스텀 */
+.logo > a{
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/razer.svg);
+  width:90px;
+  height:13.672px;
+  display:block;
+  background-repeat: no-repeat;
+  background-position: 0 ;
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+/* login,cart 커스텀 */
+.login > a {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/login1.png?dummy123);
+  width:14px;
+  height:19px;
+  background-size: 12px 17px;
+  background-repeat: no-repeat;
+  margin-right:15px;
+}
+.login > a:hover {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/loginhover.png);
+}
+.cart > a {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/cart1.png);
+  width:20px;
+  height:15px;
+  background-size: 20px 15px;
+  background-repeat: no-repeat;
+  margin-right:30px;
+  transform:translatey(-5%);
+}
+.cart > a:hover {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/carthover.png);
+}
+
+.title-text, .store-move {
+  left:0;
+  right:0;
+  position:absolute;
+  text-align:center;
+}
+.title-text {
+  color: #999;
+  font-weight:300;
+  font-size:40px;
+  top:12%;
+}
+.store-move {
+  color: #fff;
+  font-size:18px;
+  top:20%;
+}
+.store-move > .fas {
+  font-size:12px;
+  color: #44d62c;
+}
+
+/* notebook-page 커스텀 */
+.notebook-page {
+  padding-top: 60px;
+  max-width:1920px;
+  min-width: 950px;
+  margin-bottom: 10px;
+}
+.notebook-page.active {
+  padding-top: 180px;
+}
+.notebook-page > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/a-1920x700-desktop-c5-v3.jpg);
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:700px;
+  max-width:1920px;
+}
+.notebook-page > a > .title-text{
+  top:15%;
+}
+.notebook-page > a > .store-move {
+  top:25%;
+}
+.notebook-page.active > a > .title-text{
+  top:25%;
+}
+.notebook-page.active > a > .store-move {
+  top:35%;
+}
+/* newacc-page-1 커스텀 */
+.newacc-page-1 {
+  height:700px;
+  max-width:1920px;
+  min-width: 950px;
+  margin-bottom: 10px;
+}
+.newacc-page-1 > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/huntsman-mini-home-large.jpg);
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:700px;
+  max-width:1920px;
+}
+/* newacc-page-2 커스텀 */
+.newacc-page-2 {
+  height:700px;
+  min-width: 950px;
+  max-width:1920px;
+  margin-bottom: 5px;
+}
+.newacc-page-2 > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/kishi-homepage-large.jpg);
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:700px;
+  max-width:1920px;
+}
+/* store-sub-menu 커스텀 */
+.store-sub-box {
+  max-width:1920px;
+}
+.store-sub-box > li {
+  height:580px;
+  max-width: 950px;
+  margin:5px -5px;
+}
+.store-sub-box .title-text {
+  font-size:28px;
+  top:8%;
+}
+.store-sub-box .store-move {
+  font-size:16px;
+  top:15%;
+  font-weight:600;
+}
+.introduce-img {
+
+}
+.store-sub-box > .sub-1 > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/razer-blade-stealth-13-2020-on-b-950x580-desktop.jpg);
+  background-position: 0 ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:580px;
+  width:950px;
+}
+
+.store-sub-box > .sub-2 > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/razer-cynosa-v2-b-950x580-desktop.jpg);
+  background-position: 0 ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:580px;
+  width:950px;
+}
+.store-sub-box > .sub-3 > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/bts-2020-b-954x580-desktop.jpg);
+  background-position: 0 ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:580px;
+  width:950px;
+}
+.store-sub-box > .sub-4 > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/dav2mini-950x580-desktop.jpg);
+  background-position: 0 ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:580px;
+  width:950px;
+}
+
+.store-sub-box > .sub-5 > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/arctech-promo-b-954x580-desktop.jpg);
+  background-position: 0 ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:580px;
+  width:950px;
+}
+.store-sub-box > .sub-6 > a > .introduce-img {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/insider-desktop.jpg);
+  background-position: 0 ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:580px;
+  width:950px;
+}
+
+
+
+/* bottom-site-map 커스텀 */
+.bottom-site-map {
+  min-width: 950px;
+}
+.bottom-site-map > .bottom-1 > .site-map-menu-box-1 > .company > ul > .company-text,.united-text {
+  color: #fff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.bottom-site-map > .bottom-1 > .site-map-menu-box-1 > .company > ul > li,.bottom-site-map > .bottom-2 > .site-map-menu-box-2 > .shop-menu-box-1 > ul > li,.bottom-last > div ,.location-change > ul > li ,
+.shop-menu-box-2 > ul > li {
+  color: #999;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.bottom-site-map > .bottom-1 > .site-map-menu-box-1 > .company > ul > li:hover > a,.bottom-site-map > .bottom-2 > .site-map-menu-box-2 > .shop-menu-box-1 > ul > li:hover > a,.bottom-last > div >  .shop-menu-box-2 > ul > li:hover > a, .location-change > ul > li:hover > a {
+  color: #fff;
+  text-decoration:underline;
+}
+.bottom-site-map > .bottom-1 > .sns-icon > .company-text {
+  color: #44d62c;
+  font-size:12px;
+}
+.bottom-site-map > .bottom-1 > .sns-icon > div {
+  margin: 0 5px;
+}
+.bottom-site-map > .bottom-1 > .sns-icon > .facebook > a {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/SM0001-facebook.svg);
+  background-position: 0 ;
+  background-repeat: no-repeat;
+  width:30px;
+  height:30px;
+}
+.bottom-site-map > .bottom-1 > .sns-icon > .instagram > a {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/SM0003-instagram.svg);
+  background-position: 0 ;
+  background-repeat: no-repeat;
+  width:30px;
+  height:30px;
+}
+.bottom-site-map > .bottom-1 > .sns-icon > .twitter > a {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/SM0005-twitter.svg);
+  background-position: 0 ;
+  background-repeat: no-repeat;
+  width:30px;
+  height:30px;
+}
+.site-map-menu-box-1{
+  margin-top: 30px;
+}
+.shop-text {
+  color: #fff;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.bottom-2 {
+  margin-bottom: 30px;
+}
+.location-change > ul {
+  color: #fff;
+}
+.bottom-site-map ul li {
+  position: relative;
+}
+.copyright {
+  margin-right: 20px;
+}
+.razer-com {
+  color: #fff;
+  margin-right: 10px;
+}
+.company ul li:not(:last-child)::after {
+  content:"";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  top:50%;
+  right:-10%;
+  transform: translateY(-50%);
+  background-color: #999;
+}
+.shop-menu-box-1 ul li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  top:50%;
+  right:-8%;
+  transform: translateY(-50%);
+  background-color: #999;
+} 
+.shop-menu-box-2 ul li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  top:50%;
+  right:-8%;
+  transform: translateY(-50%);
+  background-color: #999;
+}
