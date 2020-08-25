@@ -14,6 +14,15 @@
 </head>
 
 <body>
+  <!-- 모작페이지 알람 -->
+  <div class="alerted active">
+    <div class="alert-box inline-block">이 페이지는 포트폴리오를 위한 페이지 입니다.
+      <div class="close-btn text-align-center">
+        <div class="close-text inline-block">확인</div>
+      </div>
+    </div>
+  </div>
+  <!-- 모작페이지 알람 끝 -->
   <!-- popup-2 HTML -->
   <div class="popup-background"></div>
   <div class="popup-2 relative text-align-center">
@@ -31,10 +40,10 @@
       <h6>*Offer is valid with a minimum purchase of $99.</h6>
     </div>
   </div>
- 
-    <!-- top-bar HTML -->
-    <div class="top-bar fixed">
-          <!-- popup-1 HTML -->
+
+  <!-- top-bar HTML -->
+  <div class="top-bar fixed">
+    <!-- popup-1 HTML -->
     <div class="popup-1">
       <div class="area con flex justify-content-sa">
         <div class="text-ex flex-1-0-0 flex-ai-c">
@@ -55,230 +64,230 @@
         </div>
       </div>
     </div>
-      <div class="con flex relative">
-        <div class="logo flex-ai-c">
-          <a href="#"></a>
-        </div>
-        <!-- menu-box-1 HTML -->
-        <nav class="menu-box-1 flex-1-0-0">
-          <ul class="flex flex-ai-c">
-            <li class=""><a href="#" class="block">WHATS NEW</a>
-              <div class="">
-                <ul>NEW LAUNCHES
-                  <li><a href="#" class="block">Razer Cynosa V2
-                    </a></li>
-                  <li><a href="#" class="block">Razer Huntsman Mini
-                    </a></li>
-                  <li><a href="#" class="block">Razer DeathAdder V2 Mini
-                    </a></li>
-                  <li><a href="#" class="block">RESPAWN Tub
-                    </a></li>
-                  <li><a href="#" class="block">Razer Concourse Pro 17.3 Backpack
-                    </a></li>
-                  <li><a href="#" class="block">#RazerForLife Surgical Mask
-                    </a></li>
-                  <li><a href="#" class="block">Razer Hydrator Quartz Edition
-                    </a></li>
-                  <li><a href="#" class="block">THX Spatial Audio</a></li>
-                </ul>
-                <ul>FEATURED
-                  <li><a href="#" class="block">Back to School
-                    </a></li>
-                  <li><a href="#" class="block">Nvidia - Death Stranding for PC
-                    </a></li>
-                  <li><a href="#" class="block">Campaigns
-                    </a></li>
-                  <li><a href="#" class="block">Razer TipStream</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class=""><a href="#" class="block">PRODUCTS</a>
-              <div>
-                <ul>PC
-                  <li><a href="#" class="block">Laptops
-                    </a></li>
-                  <li><a href="#" class="block">eGPUs
-                    </a></li>
-                  <li><a href="#" class="block">Desktops & Cases
-                    </a></li>
-                  <li><a href="#" class="block">Monitors
-                    </a></li>
-                  <li><a href="#" class="block">PC Accessories</a></li>
-                </ul>
-                <ul>PERIPHERALS
-                  <li><a href="#" class="block">Mice
-                    </a></li>
-                  <li><a href="#" class="block">Mats
-                    </a></li>
-                  <li><a href="#" class="block">Keyboards
-                    </a></li>
-                  <li><a href="#" class="block">Audio
-                    </a></li>
-                  <li><a href="#" class="block">Console
-                    </a></li>
-                  <li><a href="#" class="block">Streaming
-                    </a></li>
-                  <li><a href="#" class="block">Peripheral Accessories</a></li>
-                </ul>
-                <ul>MOBILE
-                  <li><a href="#" class="block">Controllers
-                    </a></li>
-                  <li><a href="#" class="block">Audio
-                    </a></li>
-                  <li><a href="#" class="block">Cases
-                    </a></li>
-                  <li><a href="#" class="block">Mobile Accessories</a></li>
-                </ul>
-                <ul>LIFESTYLE
-                  <li><a href="#" class="block">RESPAWN
-                    </a></li>
-                  <li><a href="#" class="block">Gear & Apparel
-                    </a></li>
-                  <li><a href="#" class="block">Surgical Masks</a></li>
-                </ul>
-                <ul>CUSTOMS & COLLABS
-                  <li><a href="#" class="block">Razer Customs
-                    </a></li>
-                  <li><a href="#" class="block">Overwatch: Lucio
-                    </a></li>
-                  <li><a href="#" class="block">Star Wars: Stormtrooper</a></li>
-                </ul>
-                <ul>PAY & REWARDS
-                  <li><a href="#" class="block">Razer Gold & Silver
-                    </a></li>
-                  <li><a href="#" class="block">Razer Gold PINs
-                    </a></li>
-                  <li><a href="#" class="block">Razer Gift Card
-                    </a></li>
-                  <li><a href="#" class="block">Razer TipStream</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class=""><a href="#" class="block">APPS&DOWNLOADS</a>
-              <div>
-                <ul>DRIVERS
-                  <li><a href="#" class="block">Synapse 3
-                    </a></li>
-                  <li><a href="#" class="block">Synapse 2 - Legacy
-                    </a></li>
-                </ul>
-                <ul>DESKTOP
-                  <li><a href="#" class="block">7.1 Surround Sound
-                    </a></li>
-                  <li><a href="#" class="block">THX Spatial Audio
-                    </a></li>
-                  <li><a href="#" class="block">Cortex - Game Booster
-                    </a></li>
-                  <li><a href="#" class="block">Streamer Companion App
-                    </a></li>
-                  <li><a href="#" class="block">Game Deals
-                    </a></li>
-                  <li><a href="#" class="block">Chroma RGB
-                    </a></li>
-                </ul>
-                <ul>MOBILE
-                  <li><a href="#" class="block">Cortex Games for Android
-                    </a></li>
-                  <li><a href="#" class="block">Razer Android Apps
-                    </a></li>
-                  <li><a href="#" class="block">Razer iOS Apps</a></li>
-                </ul>
-                <ul>MEDIA
-                  <li><a href="#" class="block">Wallpapers
-                    </a></li>
-                  <li><a href="#" class="block">Chroma Workshop</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class=""><a href="#" class="block">EXPLORE</a>
-              <div>
-                <ul>ABOUT
-                  <li><a href="#" class="block">Our Story
+    <div class="con flex relative">
+      <div class="logo flex-ai-c">
+        <a href="#"></a>
+      </div>
+      <!-- menu-box-1 HTML -->
+      <nav class="menu-box-1 flex-1-0-0">
+        <ul class="flex flex-ai-c">
+          <li class=""><a href="#" class="block">WHATS NEW</a>
+            <div class="">
+              <ul>NEW LAUNCHES
+                <li><a href="#" class="block">Razer Cynosa V2
+                  </a></li>
+                <li><a href="#" class="block">Razer Huntsman Mini
+                  </a></li>
+                <li><a href="#" class="block">Razer DeathAdder V2 Mini
+                  </a></li>
+                <li><a href="#" class="block">RESPAWN Tub
+                  </a></li>
+                <li><a href="#" class="block">Razer Concourse Pro 17.3 Backpack
+                  </a></li>
+                <li><a href="#" class="block">#RazerForLife Surgical Mask
+                  </a></li>
+                <li><a href="#" class="block">Razer Hydrator Quartz Edition
+                  </a></li>
+                <li><a href="#" class="block">THX Spatial Audio</a></li>
+              </ul>
+              <ul>FEATURED
+                <li><a href="#" class="block">Back to School
+                  </a></li>
+                <li><a href="#" class="block">Nvidia - Death Stranding for PC
+                  </a></li>
+                <li><a href="#" class="block">Campaigns
+                  </a></li>
+                <li><a href="#" class="block">Razer TipStream</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class=""><a href="#" class="block">PRODUCTS</a>
+            <div>
+              <ul>PC
+                <li><a href="#" class="block">Laptops
+                  </a></li>
+                <li><a href="#" class="block">eGPUs
+                  </a></li>
+                <li><a href="#" class="block">Desktops & Cases
+                  </a></li>
+                <li><a href="#" class="block">Monitors
+                  </a></li>
+                <li><a href="#" class="block">PC Accessories</a></li>
+              </ul>
+              <ul>PERIPHERALS
+                <li><a href="#" class="block">Mice
+                  </a></li>
+                <li><a href="#" class="block">Mats
+                  </a></li>
+                <li><a href="#" class="block">Keyboards
+                  </a></li>
+                <li><a href="#" class="block">Audio
+                  </a></li>
+                <li><a href="#" class="block">Console
+                  </a></li>
+                <li><a href="#" class="block">Streaming
+                  </a></li>
+                <li><a href="#" class="block">Peripheral Accessories</a></li>
+              </ul>
+              <ul>MOBILE
+                <li><a href="#" class="block">Controllers
+                  </a></li>
+                <li><a href="#" class="block">Audio
+                  </a></li>
+                <li><a href="#" class="block">Cases
+                  </a></li>
+                <li><a href="#" class="block">Mobile Accessories</a></li>
+              </ul>
+              <ul>LIFESTYLE
+                <li><a href="#" class="block">RESPAWN
+                  </a></li>
+                <li><a href="#" class="block">Gear & Apparel
+                  </a></li>
+                <li><a href="#" class="block">Surgical Masks</a></li>
+              </ul>
+              <ul>CUSTOMS & COLLABS
+                <li><a href="#" class="block">Razer Customs
+                  </a></li>
+                <li><a href="#" class="block">Overwatch: Lucio
+                  </a></li>
+                <li><a href="#" class="block">Star Wars: Stormtrooper</a></li>
+              </ul>
+              <ul>PAY & REWARDS
+                <li><a href="#" class="block">Razer Gold & Silver
+                  </a></li>
+                <li><a href="#" class="block">Razer Gold PINs
+                  </a></li>
+                <li><a href="#" class="block">Razer Gift Card
+                  </a></li>
+                <li><a href="#" class="block">Razer TipStream</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class=""><a href="#" class="block">APPS&DOWNLOADS</a>
+            <div>
+              <ul>DRIVERS
+                <li><a href="#" class="block">Synapse 3
+                  </a></li>
+                <li><a href="#" class="block">Synapse 2 - Legacy
+                  </a></li>
+              </ul>
+              <ul>DESKTOP
+                <li><a href="#" class="block">7.1 Surround Sound
+                  </a></li>
+                <li><a href="#" class="block">THX Spatial Audio
+                  </a></li>
+                <li><a href="#" class="block">Cortex - Game Booster
+                  </a></li>
+                <li><a href="#" class="block">Streamer Companion App
+                  </a></li>
+                <li><a href="#" class="block">Game Deals
+                  </a></li>
+                <li><a href="#" class="block">Chroma RGB
+                  </a></li>
+              </ul>
+              <ul>MOBILE
+                <li><a href="#" class="block">Cortex Games for Android
+                  </a></li>
+                <li><a href="#" class="block">Razer Android Apps
+                  </a></li>
+                <li><a href="#" class="block">Razer iOS Apps</a></li>
+              </ul>
+              <ul>MEDIA
+                <li><a href="#" class="block">Wallpapers
+                  </a></li>
+                <li><a href="#" class="block">Chroma Workshop</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class=""><a href="#" class="block">EXPLORE</a>
+            <div>
+              <ul>ABOUT
+                <li><a href="#" class="block">Our Story
 
-                    </a></li>
-                  <li><a href="#" class="block">RazerStores</a></li>
-                </ul>
-                <ul>OUR COMMUNITY
-                  <li><a href="#" class="block">Get Started
-                    </a></li>
-                  <li><a href="#" class="block">Insider Forums
-                    </a></li>
-                  <li><a href="#" class="block">Developer Portal</a></li>
-                </ul>
-                <ul>ESPORTS
-                  <li><a href="#" class="block">Team Razer
-                    </a></li>
-                  <li><a href="#" class="block">This Is Esports
-                    </a></li>
-                </ul>
-                <ul>TECHNOLOGY
-                  <li><a href="#" class="block">5G Sensor
-                    </a></li>
-                  <li><a href="#" class="block">Focus+ Sensor
-                    </a></li>
-                  <li><a href="#" class="block">Hypersense
-                    </a></li>
-                  <li><a href="#" class="block">Hyperspeed
-                    </a></li>
-                  <li><a href="#" class="block">Mechanical Switches
-                    </a></li>
-                  <li><a href="#" class="block">Optical Switches
-                    </a></li>
-                  <li><a href="#" class="block">Chroma RGB
-                    </a></li>
-                </ul>
-                <ul>CONCEPTS
-                  <li><a href="#" class="block">Ultimate Racing Simulator
-                    </a></li>
-                  <li><a href="#" class="block">Tomahawk
-                    </a></li>
-                  <li><a href="#" class="block">Project Linda
-                    </a></li>
-                  <li><a href="#" class="block">Project Valerie
-                    </a></li>
-                  <li><a href="#" class="block">Project Ariana</a></li>
-                </ul>
-              </div>
-            </li>
-            <li class=""><a href="#" class="block">SUPPORT</a>
-              <div>
-                <ul>GET HELP
-                  <li><a href="#" class="block">Product Support</a></li>
-                </ul>
-                <ul>REGISTRATION & WARRANTY
-                  <li><a href="#" class="block">Warranty FAQ
-                    </a></li>
-                  <li><a href="#" class="block">Product Registration</a></li>
-                </ul>
-                <ul>ONLINE STORE
-                  <li><a href="#" class="block">Shop FAQ
-                    </a></li>
-                  <li><a href="#" class="block">Shipping Guide
-                    </a></li>
-                  <li><a href="#" class="block">Returns & Refunds
-                    </a></li>
-                  <li><a href="#" class="block">Razer Advantage
-                    </a></li>
-                </ul>
-                <ul>RAZERCARE
-                  <li><a href="#" class="block">RazerCare Protection Plan
-                    </a></li>
-                  <li><a href="#" class="block">RazerCare Store</a></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </nav>
-        <div class="login-cart flex">
-          <div class="login flex-ai-c">
-            <a href="#" class="block"></a>
-          </div>
-          <div class="cart flex-ai-c">
-            <a href="#" class="block"></a>
-          </div>
+                  </a></li>
+                <li><a href="#" class="block">RazerStores</a></li>
+              </ul>
+              <ul>OUR COMMUNITY
+                <li><a href="#" class="block">Get Started
+                  </a></li>
+                <li><a href="#" class="block">Insider Forums
+                  </a></li>
+                <li><a href="#" class="block">Developer Portal</a></li>
+              </ul>
+              <ul>ESPORTS
+                <li><a href="#" class="block">Team Razer
+                  </a></li>
+                <li><a href="#" class="block">This Is Esports
+                  </a></li>
+              </ul>
+              <ul>TECHNOLOGY
+                <li><a href="#" class="block">5G Sensor
+                  </a></li>
+                <li><a href="#" class="block">Focus+ Sensor
+                  </a></li>
+                <li><a href="#" class="block">Hypersense
+                  </a></li>
+                <li><a href="#" class="block">Hyperspeed
+                  </a></li>
+                <li><a href="#" class="block">Mechanical Switches
+                  </a></li>
+                <li><a href="#" class="block">Optical Switches
+                  </a></li>
+                <li><a href="#" class="block">Chroma RGB
+                  </a></li>
+              </ul>
+              <ul>CONCEPTS
+                <li><a href="#" class="block">Ultimate Racing Simulator
+                  </a></li>
+                <li><a href="#" class="block">Tomahawk
+                  </a></li>
+                <li><a href="#" class="block">Project Linda
+                  </a></li>
+                <li><a href="#" class="block">Project Valerie
+                  </a></li>
+                <li><a href="#" class="block">Project Ariana</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class=""><a href="#" class="block">SUPPORT</a>
+            <div>
+              <ul>GET HELP
+                <li><a href="#" class="block">Product Support</a></li>
+              </ul>
+              <ul>REGISTRATION & WARRANTY
+                <li><a href="#" class="block">Warranty FAQ
+                  </a></li>
+                <li><a href="#" class="block">Product Registration</a></li>
+              </ul>
+              <ul>ONLINE STORE
+                <li><a href="#" class="block">Shop FAQ
+                  </a></li>
+                <li><a href="#" class="block">Shipping Guide
+                  </a></li>
+                <li><a href="#" class="block">Returns & Refunds
+                  </a></li>
+                <li><a href="#" class="block">Razer Advantage
+                  </a></li>
+              </ul>
+              <ul>RAZERCARE
+                <li><a href="#" class="block">RazerCare Protection Plan
+                  </a></li>
+                <li><a href="#" class="block">RazerCare Store</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="login-cart flex">
+        <div class="login flex-ai-c">
+          <a href="#" class="block"></a>
+        </div>
+        <div class="cart flex-ai-c">
+          <a href="#" class="block"></a>
         </div>
       </div>
     </div>
+  </div>
 
   <!-- notebook-page-1 HTML -->
   <div class="notebook-page relative">
@@ -381,7 +390,7 @@
     <div class="bottom-2 con">
       <div class="site-map-menu-box-2">
         <nav class="shop-menu-box-1">
-        <div class="shop-text">Shop</div>
+          <div class="shop-text">Shop</div>
           <ul class="flex flex-ai-c">
             <li><a href="#" class="block">Store Locator</a></li>
             <li><a href="#" class="block">Partners & Affiliates</a></li>
@@ -391,7 +400,7 @@
             <li><a href="#" class="block">Newsletter Sign Up</a></li>
           </ul>
         </nav>
-   
+
         <div class="bottom-last flex justify-content-sb">
           <div class="flex">
             <div class="razer-com">Razer.com</div>

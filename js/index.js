@@ -29,8 +29,16 @@ function popup_2() {
   })
 }
 
+function alerted(){
+	$('.alerted > .alert-box > .close-btn > .close-text').click(function(){
+		$('.alerted').removeClass('active');
+	})
+}
+
+
 $(function () {
   popup_start();
   popup_1();
   popup_2();
+  alerted();
 })
