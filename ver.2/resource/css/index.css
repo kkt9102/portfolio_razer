@@ -1,0 +1,357 @@
+.con {
+  max-width: 1200px;
+}
+body {
+  background: #222222;
+}
+.mobile-view {
+  display: none;
+}
+/* top-bar 커스텀 */
+.top-bar {
+  background: #222222;
+  z-index: 1000;
+}
+.top-bar > .menu-box-1 {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+/* logo 커스텀 */
+.top-bar > .menu-box-1 > .logo > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/razer.svg) no-repeat 0 0;
+  width:90px;
+  height:14px;
+  margin:24px 0 16px 0;
+}
+  /* menu-box-1 커스텀 */
+.top-bar > .menu-box-1 > .main-menu-box {
+  padding: 0 45px;
+}
+.top-bar > .menu-box-1 > .main-menu-box > li {
+  padding:23px 45px 17px 0;
+  cursor: pointer;
+}
+.top-bar > .menu-box-1 > ul > li > span {
+  position: relative;
+  color: #999999;
+}
+.top-bar > .menu-box-1 > ul > li:hover > span {
+  color: #ffffff;
+}
+.top-bar > .menu-box-1 > ul > li:hover > span::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg) translateY(50%);
+  background: #000;
+  top:100%;
+  left:50%;
+}
+.top-bar > .menu-box-1 > ul > li > .hover-menu {
+  display: none;
+  top:100%;
+  width: calc(100% - 90px);
+  left:50%;
+  transform: translateX(-51%);
+  background: #000;
+  color:#999999;
+  padding-left: 30px;
+}
+.top-bar > .menu-box-1 > ul > li:hover > .hover-menu {
+  display: block;
+}
+.top-bar > .menu-box-1 > ul > li > .hover-menu > ul {
+  margin-right: 4.5%;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.top-bar > .menu-box-1 > ul > li > .hover-menu > ul > .sub-title {
+  color:#ffffff;
+  cursor: default;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.top-bar > .menu-box-1 > ul > li > .hover-menu > ul > li {
+  padding: 8px 0;
+}
+.top-bar > .menu-box-1 > ul > li > .hover-menu > ul > li:last-child {
+  margin-bottom: 25px;
+}
+.top-bar > .menu-box-1 > ul > li > .hover-menu > ul > li:hover {
+  color: #44d62c;
+}
+
+.top-bar > .menu-box-1 > .login-cart-menu > li {
+  margin:23px 0 17px 0;
+}
+.top-bar > .menu-box-1 > .login-cart-menu {
+  padding-right: 20px;
+}
+.top-bar > .menu-box-1 > .login-cart-menu > .login > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/login1.png) no-repeat 0 0;
+  background-size: contain;
+  width:14px;
+  height:19px;
+  margin-right: 20px;
+}
+.top-bar > .menu-box-1 > .login-cart-menu > .login > a:hover {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/loginhover.png);
+}
+.top-bar > .menu-box-1 > .login-cart-menu > .cart > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/cart1.png) no-repeat 0 0;
+  background-size: contain;
+  width:20px;
+  height:15px;
+}
+.top-bar > .menu-box-1 > .login-cart-menu > .cart > a:hover {
+  background-image: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/carthover.png);
+}
+/* main-banner-section 커스텀 */
+.main-banner-section > ul > li {
+  width: 100%;
+  margin-bottom:10px;
+}
+.main-banner-section > ul > li > a > .text {
+  left:50%;
+  top:10%;
+  width: 35%;
+  transform: translateX(-50%);
+}
+.main-banner-section > ul > .item-1 > a > .text > .title {
+  padding-top: 55px;
+}
+.main-banner-section > ul > li > a > .text > .title {
+  color: #999999;;
+  font-size: 2.5rem;
+  font-family: 'RazerF5Light';
+  line-height: 1;
+  letter-spacing: 1.1px;
+}
+.main-banner-section > ul > li > a > .text > .sub-title {
+  color:#ffffff;
+  padding-top:13px;
+  font-size: 18px;
+  font-family: 'RazerF5SemiBold';
+  letter-spacing: 1.1px;
+}
+.main-banner-section > ul > li > a > .text > .sub-title > i {
+  color: #44d62c;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.main-banner-section > ul > .item-1 {
+  background: #000;
+  padding-top:60px;
+}
+.main-banner-section > ul > .item-1 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/a-1920x700-desktop-c5-v3.jpg) no-repeat 0 0;
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+}
+.main-banner-section > ul > .item-2 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/a-razer-iskur-1920x700-desktop.jpg) no-repeat 0 0;
+  width: 100%;
+  height: 75vh;
+}
+.main-banner-section > ul > .item-3 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/a-kraken-bt-kitty-1920x700-desktop.jpg) no-repeat 0 0;
+  width: 100%;
+  height: 75vh;
+}
+/* main-banner-2-section 커스텀 */
+.pc-view.main-banner-2-section > ul > li {
+  width: calc(100%/2);
+  height: 580px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.pc-view.main-banner-2-section > ul > li:nth-child(2n + 1) {
+  padding-right: 5px;
+}
+.pc-view.main-banner-2-section > ul > li:not(:nth-child(2n + 1)) {
+  padding-left: 5px;
+}
+.pc-view.main-banner-2-section > ul > li > a > .text {
+  left:50%;
+  top:10%;
+  width: 55%;
+  transform: translateX(-50%);
+}
+.pc-view.main-banner-2-section > ul > li > a > .text > .title {
+  color: #999999;;
+  font-size: 28.8px;
+  font-family: 'RazerF5Light';
+  line-height: 1;
+}
+.pc-view.main-banner-2-section > ul > li > a > .text > .sub-title {
+  color: #ffffff;
+  font-family: 'RazerF5SemiBold';
+  padding-top: 13px;
+}
+.pc-view.main-banner-2-section > ul > .item-1 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/razer-blade-stealth-13-late-2020-b-950x580-desktop.jpg) no-repeat 0 50%;
+  width: 100%;
+  height: 100%;
+}
+.pc-view.main-banner-2-section > ul > .item-2 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/razercon2020-post-b-950x580-desktop.jpg) no-repeat 0 50%;
+  width: 100%;
+  height: 100%;
+}
+.pc-view.main-banner-2-section > ul > .item-3 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/wireless-flagship-b-954x580-desktop.jpg) no-repeat 0 50%;
+  width: 100%;
+  height: 100%;
+}
+.pc-view.main-banner-2-section > ul > .item-4 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/tomahawk-b-954x580-desktop.jpg) no-repeat 0 50%;
+  width: 100%;
+  height: 100%;
+}
+.pc-view.main-banner-2-section > ul > .item-5 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/seiren-mini-950x580-desktop.jpg) no-repeat 0 50%;
+  width: 100%;
+  height: 100%;
+}
+.pc-view.main-banner-2-section > ul > .item-6 > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/razer-insider-b-950x580-desktop.jpg) no-repeat 0 50%;
+  width: 100%;
+  height: 100%;
+}
+
+/* footer-section 커스텀 */
+  /* footer-left 커스텀 */
+.pc-view.footer {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.pc-view.footer > .footer-menu > .footer-menu-box {
+  padding:0 30px;
+}
+.pc-view.footer > .footer-menu > .footer-menu-box > ul {
+  color:#999999;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.pc-view.footer > .footer-menu > .footer-menu-box > ul > .title {
+  color:#ffffff;
+  width: 70px;
+  margin-right: 4px;
+}
+.pc-view.footer > .footer-menu > .footer-menu-box > ul > li,
+.pc-view.footer > .footer-menu > .footer-menu-box > ul > .copyright
+ {
+  margin-right:8px;
+  padding-right:5px;
+  position: relative;
+}
+.pc-view.footer > .footer-menu > .footer-menu-box > ul > li:not(:last-child)::after {
+  content:"";
+  position: absolute;
+  background: #999999;
+  width: 1px;
+  height: 12px;
+  right:0;
+  top:50%;
+  transform: translateY(-50%);
+}
+.pc-view.footer > .footer-menu > .footer-menu-box > ul > li:hover > a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+/* footer-right 커스텀 */
+.pc-view.footer > .footer-menu > .icon-menu-box {
+  padding-right: 30px;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > .corp-name {
+  font-size:12px;
+  color: #44d62c;
+  margin-right: 10px;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > .up-menu {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > li {
+  margin:0 5px;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > .facebook > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/SM0001-facebook.svg) no-repeat 0 0;
+  width:30px;
+  height:30px;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > .instagram > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/SM0003-instagram.svg) no-repeat 0 0;
+  width:30px;
+  height:30px;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > .twitter > a {
+  background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/SM0005-twitter.svg) no-repeat 0 0;
+  width:30px;
+  height:30px;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > .lang-position {
+  color: #ffffff;
+  font-size: 14px;
+  padding-right: 6px;
+  position: relative;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > .lang-position::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  background: #ffffff;
+  right:0;
+  top:50%;
+  transform: translateY(-50%);
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > .lang-change {
+  color: #999999;
+  font-size: 14px;
+}
+.pc-view.footer > .footer-menu > .icon-menu-box > ul > .lang-change:hover > a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+/* alerted 커스텀 */
+.alerted.active {
+  display: block;
+}
+.alerted {
+  display: none;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+}
+.alerted > .alert-box {
+    padding: 50px;
+    background: #fff;
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+.alerted > .alert-box > .close-btn {
+  margin-top: 20px;
+}
+
+.alerted > .alert-box > .close-btn > .close-text {
+  padding: 5px 15px;
+  border:1px dotted #000;
+  cursor: pointer;
+}
+.alerted > .alert-box > .close-btn:active > .close-text {
+  background: #efefef;
+}
+/* alerted 커스텀 끝 */

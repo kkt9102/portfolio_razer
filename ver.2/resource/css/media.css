@@ -1,0 +1,46 @@
+
+@media (max-width:767px){
+    .pc-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+    /* main-banner-section 커스텀 */
+    .main-banner-section > ul > .item-1 {
+        padding-top: 0;
+    }
+    .main-banner-section > ul > li > a {
+        width: 100%;
+        height: 75vh;
+    }
+    .main-banner-section > ul > .item-1 > a {
+        background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/a-900x1160-mobile.jpg) no-repeat 50% 100%;
+        background-size: cover;
+      }
+      .main-banner-section > ul > .item-2 > a {
+        background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/a-razer-iskur-900x1160-mobile.jpg) no-repeat 0% 100%;
+        background-size: cover;
+      }
+      .main-banner-section > ul > .item-3 > a {
+        background: url(https://kkt9102.github.io/img1/blog/article/portfolio/razer/a-kraken-bt-kitty-900x1160-mobile.jpg) no-repeat 0% 100%;
+        background-size: cover; 
+      }
+      .main-banner-section > ul > .item-1 > a > .text > .title {
+        padding-top: 0px;
+      }
+      .main-banner-section > ul > li > a > .text {
+        left:50%;
+        top:8%;
+        width: 55%;
+        transform: translateX(-50%);
+      }
+      .main-banner-section > ul > li > a > .text > .title {
+        color: #999999;;
+        font-size: 22.5px;
+        font-family: 'RazerF5Light';
+        line-height: 1.2;
+        letter-spacing: -.5px;
+      }
+     
+}

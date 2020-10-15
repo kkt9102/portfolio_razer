@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ';
+    src: url(KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+}
+.fkol {
+    font-family: 'KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ';
+}
+@font-face {
+    font-family: 'KFOmCnqEu92Fr1Mu4mxKKTU1Kg';
+    src: url(KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');
+}
+.kfom {
+    font-family: 'KFOmCnqEu92Fr1Mu4mxKKTU1Kg';
+}
+@font-face {
+    font-family: 'phoenix-icons';
+    src: url(phoenix-icons.ttf) format('ttf');
+}
+.phoenix-icon {
+    font-family: 'phoenix-icons';
+}
+
+@font-face {
+    font-family: 'RazerF5Bold';
+    src: url(RazerF5Bold.woff) format('woff'),
+    url(RazerF5Bold.ttf) format('ttf');
+}
+.razer-b {
+    font-family: 'RazerF5Bold';
+}
+@font-face {
+    font-family: 'RazerF5Light';
+    src: url(RazerF5Light.woff) format('woff'),
+    url(RazerF5Light.ttf) format('ttf');
+}
+.razer-l {
+    font-family: 'RazerF5Light';
+}
+@font-face {
+    font-family: 'RazerF5SemiBold';
+    src: url(RazerF5SemiBold.woff) format('woff'),
+    url(RazerF5SemiBold.ttf) format('ttf');
+}
+.razer-s-b {
+    font-family: 'RazerF5SemiBold';
+}
